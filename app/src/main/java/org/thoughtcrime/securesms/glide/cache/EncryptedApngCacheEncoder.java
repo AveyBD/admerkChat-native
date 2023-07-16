@@ -9,8 +9,8 @@ import com.bumptech.glide.load.engine.Resource;
 
 import org.signal.core.util.StreamUtil;
 import org.signal.core.util.logging.Log;
-import org.signal.glide.apng.decode.APNGDecoder;
-import org.signal.glide.common.loader.Loader;
+import org.admerkcorp.glide.apng.decode.APNGDecoder;
+import org.admerkcorp.glide.common.loader.Loader;
 
 import java.io.File;
 import java.io.IOException;

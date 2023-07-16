@@ -28,7 +28,7 @@ import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.RequestOptions;
 
 import org.signal.core.util.logging.Log;
-import org.signal.glide.transforms.SignalDownsampleStrategy;
+import org.admerkcorp.glide.transforms.SignalDownsampleStrategy;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.blurhash.BlurHash;
 import org.thoughtcrime.securesms.database.AttachmentTable;

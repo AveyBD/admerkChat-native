@@ -34,7 +34,7 @@ import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.AndroidLogger;
 import org.signal.core.util.logging.Log;
 import org.signal.core.util.tracing.Tracer;
-import org.signal.glide.SignalGlideCodecs;
+import org.admerkcorp.glide.SignalGlideCodecs;
 import org.signal.libsignal.protocol.logging.SignalProtocolLoggerProvider;
 import org.signal.ringrtc.CallManager;
 import org.thoughtcrime.securesms.avatar.AvatarPickerStorage;
@@ -473,7 +473,7 @@ public class ApplicationContext extends MultiDexApplication implements AppForegr
   }
 
   private void initializeGlideCodecs() {
-    SignalGlideCodecs.setLogProvider(new org.signal.glide.Log.Provider() {
+    SignalGlideCodecs.setLogProvider(new org.admerkcorp.glide.Log.Provider() {
       @Override
       public void v(@NonNull String tag, @NonNull String message) {
         Log.v(tag, message);
